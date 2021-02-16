@@ -8,24 +8,19 @@
 }
 
 .checkbox {
+  font-size: 12px;
   border: 1px solid #aaa;
   border-radius: 2px;
-  width: 16px;
-  height: 16.5px;
+  width: 20px;
   margin-right: 8px;
   display: inline-block;
 }
 
-// ------------ show -------------
+// // ------------ show -------------
 
 .box-details {
   padding: 24px;
   background-color: #eee;
   border: 1px solid #aaa;
   border-radius: 4px;
-}
-
-hr {
-  border: 1px solid #eee;
-  margin-bottom: 24px;
 }

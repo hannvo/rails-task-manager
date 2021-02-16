@@ -13,7 +13,9 @@
  *= require_tree .
  *= require_self
  */
-body {
+@import "bootstrap/scss/bootstrap";
+
+/*body {
   font-family: 'Helvetica', sans-serif
 }
 
@@ -34,3 +36,4 @@ a:focus {
 .my-32 {
   margin: 32px 0;
 }
+*/

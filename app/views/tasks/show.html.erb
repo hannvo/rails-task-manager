@@ -1,5 +1,8 @@
-<h1><%= @task.title %></h1>
-<%= link_to 'Edit this task', edit_task_path(@task) %>
+<div class="d-flex justify-content-between align-items-end my-3">
+  <h1 class="m-0"><%= @task.title %></h1>
+  <%= link_to 'Edit this task', edit_task_path(@task) , class: "btn btn-outline-secondary"%>
+</div>
+
 <p class="box-details"><%= @task.details %></p>
 
 <% if @task.completed %>
