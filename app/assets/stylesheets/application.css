@@ -21,3 +21,16 @@ h1 {
   font-size: 48px;
   font-weight: 400;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  opacity: 0.8;
+}
+
+.my-32 {
+  margin: 32px 0;
+}

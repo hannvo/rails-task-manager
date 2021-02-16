@@ -1,0 +1,12 @@
+<h1><%= @task.title %></h1>
+<p class="box-details"><%= @task.details %></p>
+
+<% if @task.completed %>
+  <p class="my-32"><span class="checkbox">✔</span> This task is completed.</p>
+<% else %>
+  <p class="my-32"><span class="checkbox"></span> This task is not completed yet.</p>
+<% end %>
+
+<hr>
+
+<%= link_to 'Back to list', tasks_path %>
