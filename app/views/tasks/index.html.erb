@@ -1,0 +1,8 @@
+<h1>My tasks</h1>
+<% @tasks.each do |task| %>
+  <% done = task.completed ? '✔' : ' '  %>
+  <div class="task-list-item">
+    <span class="checkbox"><%= done %></span>
+    <p><%= task.title %></p>
+  </div>
+<% end %>
