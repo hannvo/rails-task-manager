@@ -2,12 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+.task-list {
+  list-style: none;
+  padding-left: 0;
+}
+
 .checkbox {
   border: 1px solid #aaa;
   border-radius: 2px;
   width: 16px;
   height: 16.5px;
-  margin-right: 16px;
+  margin-right: 8px;
   display: inline-block;
 }
 
